@@ -1,4 +1,4 @@
-# _{Application Name}_
+# CSS Week 2 Code Review 
 
 #### _{Brief description of application}, {Date of current version}_
 
