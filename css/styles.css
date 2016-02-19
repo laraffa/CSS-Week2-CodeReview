@@ -7,7 +7,7 @@
 *:not(html) {
   /**:not(body):not(html) {*/
   /*box-sizing:border-box;*/
-  border:1px dashed red;
+  /*border:1px dashed red;*/
 }
 
 .columns {
@@ -18,6 +18,10 @@
 body {
   background-color: black;
   font-family: 'Crimson Text', serif;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+
 }
 
 li {
@@ -68,8 +72,8 @@ li {
 .container {
   background-color: #000;
   margin: auto;
-  width: 98%;
-  height: 85vh;
+  width: 90%;
+  height: 90vh;
   color: black;
   margin-top: 2em;
 
@@ -152,11 +156,16 @@ li {
    }
 
    .navbar {
-     width: 30%;
-     height: 12%;
+     position: fixed;
+     top: 10%;
+     left: 10%;
+     width: 160px;
+     height: 160px;
      background-color: white;
+     opacity: .8;
      text-transform: uppercase;
      border: 1px solid black;
+     margin: 0;
    }
 
    .box1, .box2, .box3 {
@@ -164,26 +173,68 @@ li {
      background-color: #000;
     }
 
+    .box2 {
+      border: 10px solid #fff;
+      background-color: #14210f;
+    }
+
     .container {
       background-color: #fff;
+
     }
 
   .box1 {
+    position: relative;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 60%;
   }
 
+  .title {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 50%;
+    text-shadow: 2px 2px #000;
+  }
+
    .box3, .box2 {
+     position: relative;
      width: 50%;
      height:30%;
+     color: white;
+
    }
+
 
    .box3 {
      float: left;
    }
 
    .box2 {
+     position: relative;
      float: left;
+     text-align: center;
+     text-transform: uppercase;
+   }
+
+   .black {
+     position: absolute;
+     top: auto;
+     text-align: center;
+   }
+
+   .black2 {
+     position: absolute;
+     padding: 10%;
+     font-size: 16px;
+   }
+
+   .black h1 {
+     font-weight: lighter;
+     height: 0 auto;
    }
 
 }
@@ -196,6 +247,18 @@ li {
     height:100%;
   }
 
+  .black {
+    position: absolute;
+    top: 20%;
+    padding: 10%;
+  }
+
+.black2 {
+  font-size: 20px;
+  padding-top: 25%;
+}
+
+
 .box3 .box2 {
   float: left;
   margin: 0 auto;
@@ -204,9 +267,11 @@ li {
 .box3 {
   height: 50%;
   width: 30%;
+  text-align: center;
 }
 .box2 {
   height: 50%;
   width: 30%;
+  text-align: center;
 }
 }
