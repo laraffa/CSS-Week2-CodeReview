@@ -1,8 +1,8 @@
-# CSS Week 2 Code Review 
+# CSS Week 2 Code Review
 
-#### _{Brief description of application}, {Date of current version}_
+#### A webpage on Mondrian Design
 
-#### By _**{List of contributors}**_
+#### By Lindsey Raffa
 
 ## Description
 This webpage is a mock up of the Andersson-wise website landing page. It uses Mondrian Design pattern make content responsive.
